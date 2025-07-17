@@ -8,7 +8,9 @@ This guide will walk you through the process of setting up and running a Functio
 2.  **Start the Node & Get Your Node ID**: Follow one of the guides below to start your node. When you start the node, it will output your unique Node ID.
 3.  **Stake Your Node**: Once you have your Node ID and publicly accessible node URL, go to the [staking page](https://www.function.network/provide) to stake it on the network.
 
-> **Note**: Before staking your node, we recommend reviewing our [Best Practices](./best-practices.md) guide for tips on security and performance.
+{% hint style="info" %}
+**Note**: Before staking your node, we recommend reviewing our [Best Practices](./best-practices.md) guide for tips on security and performance.
+{% endhint %}
 
 ## Running as a Binary
 
@@ -33,8 +35,9 @@ For users who prefer to use Docker, we provide images for different hardware con
         ```bash
         docker pull ghcr.io/fxnlabs/function-node:0.2.0
         ```
-
-> **Note**: AMD GPU acceleration is on our roadmap and will be supported in a future release.
+{% hint style="info" %}
+**Note**: AMD GPU acceleration is on our roadmap and will be supported in a future release.
+{% endhint %}
 
 2.  **Run the Docker Container**: Start a container with the image you pulled. This will start the node and give you your Node ID.
 3.  Proceed to stake your node as described in the "Getting Started" section.
